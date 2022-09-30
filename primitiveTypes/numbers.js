@@ -7,7 +7,7 @@ const segundoNumero = 2;
 
 let opeMath = primeiroNumero + segundoNumero;
 
-//console.log(numFloat);
+console.log(numFloat);
 
 
 //Ponto Flutuante
@@ -17,7 +17,7 @@ const numFloat2 = .5;
 
 opeMath = meuNumero * (segundoNumero + primeiroNumero) / (numFloat - numFloat2);
 
-//console.log(opeMath);
+console.log(opeMath);
 
 //NaN
 
