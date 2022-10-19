@@ -11,5 +11,6 @@ client.phone = '92382939';
 console.log(client);
 
 client.phone = '39479278';
+delete client.email;
 
 console.log(client);
