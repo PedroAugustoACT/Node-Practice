@@ -32,7 +32,7 @@ const clients = [
 
 const dependentsList = [...clients[0].dependents,...clients[1].dependents];
 
-console.table(dependentsList)
+console.table(teste)
 
 
 

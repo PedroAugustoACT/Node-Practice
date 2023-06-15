@@ -11,10 +11,12 @@ const client = {
     dependents: [{
         user: 'João',
         age: 11,
+        youngest: true,
     },
     {
         user: 'Ana Carla',
         age: 45,
+        youngest: false,
     }]
 }
 console.log(client);
@@ -26,7 +28,7 @@ client.dependents.push({
 
 console.log(client);
 
-const youngestSon = client.dependents.filter(dependent => dependent.age===11);
+const youngestSon = client.dependents.filter(dependent => dependent.youngest===true);
 
 console.log(youngestSon);
 
