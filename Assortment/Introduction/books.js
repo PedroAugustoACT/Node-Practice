@@ -1,5 +1,5 @@
 
-const numbers = [
+const books = [
     {
         title: 'Js',
         value: 20
@@ -30,7 +30,4 @@ const numbers = [
     },
 ]
 
-
-console.log(numbers.sort((a,b) => a-b))
-
-//console.log(numbers.sort((a,b) => b-a))
+module.exports = books
